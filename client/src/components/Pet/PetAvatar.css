@@ -1,0 +1,60 @@
+.pet-canvas-container {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+
+/* All layers stretch to fill the 1:1 container */
+.pet-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* Micro-adjustments per category */
+.pet-glasses-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.pet-hat-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+.pet-body-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/* When accessory assets are rendered as independent img layers */
+img.pet-glasses-item {
+  top: 12% !important;
+  transform: scale(0.85);
+}
+
+img.pet-hat-item {
+  top: -15% !important;
+  transform: scale(0.9);
+}
+
+img.pet-body-item {
+  top: 20% !important;
+}

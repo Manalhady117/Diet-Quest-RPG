@@ -1,0 +1,6 @@
+{
+  "name": "Diet Quest RPG",
+  "description": "Gamified RPG-style health and fitness engine featuring real AI diet plans, biometric split walking quests, HP, XP, levels, and loot store.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

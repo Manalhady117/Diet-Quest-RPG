@@ -1,0 +1,1271 @@
+{
+  "users": [
+    {
+      "name": "Hero Tester",
+      "email": "tester@realm.com",
+      "passwordHash": "$2b$10$r/LK7vFmM78CINKg9DqkyOfPskJSc9jP6co4S3SzHNK3PIqtD0mWi",
+      "user_goal": "weight_loss",
+      "diet_type": "Balanced",
+      "device_sync": "Apple Watch",
+      "onboardingCompleted": false,
+      "createdAt": "2026-09-09T12:23:13.980Z",
+      "updatedAt": "2026-09-09T12:23:13.981Z",
+      "id": "doc_1788956593981_4wjfd5"
+    },
+    {
+      "name": "manal",
+      "email": "manalhady88@gmail.com",
+      "passwordHash": "$2b$10$ILFcOrjbj3HN8n054xlpkO8KoFMTu2.9yi4NTxIfmDccdikVkSa.C",
+      "user_goal": "weight_loss",
+      "diet_type": "Balanced",
+      "device_sync": "In-App Walking Quests",
+      "age": "18-25",
+      "height_cm": "160-170cm",
+      "weight_kg": "68kg",
+      "liked_foods": [
+        "Chicken",
+        "Rice",
+        "Vegetables",
+        "Fish",
+        "Beef",
+        "Fruits",
+        "Eggs",
+        "Oats",
+        "Dairy"
+      ],
+      "disliked_foods": [
+        "Gluten"
+      ],
+      "favorite_cuisines": [
+        "Egyptian",
+        "Mediterranean"
+      ],
+      "allergies": [
+        "None"
+      ],
+      "metrics": {
+        "bmr": 1606,
+        "tdee": 2329,
+        "caloric_target": 1879,
+        "carbs_g": 217,
+        "protein_g": 136,
+        "fats_g": 52,
+        "water_target_ml": 2400,
+        "carbs_pct": 46,
+        "protein_pct": 29,
+        "fats_pct": 25,
+        "ageYears": 22,
+        "heightCm": 165,
+        "weightKg": 68
+      },
+      "campaign": {
+        "current_day": 1,
+        "current_week": 1,
+        "starting_weight_kg": 75,
+        "target_weight_kg": 70,
+        "current_weight_kg": 75,
+        "weight_history": [],
+        "week_unlocked": 1,
+        "needs_weigh_in": false,
+        "daily_logs": []
+      },
+      "onboardingCompleted": true,
+      "createdAt": "2026-10-01T18:03:58.980Z",
+      "updatedAt": "2026-10-01T18:12:46.702Z",
+      "id": "doc_1790877838980_9dapr2",
+      "diet_plan": {
+        "source": "deterministic-ai",
+        "caloric_target": 1879,
+        "macros": {
+          "protein": 136,
+          "carbs": 217,
+          "fats": 52
+        },
+        "current_day": 1,
+        "week_schedule": [
+          {
+            "day": 1,
+            "name": "Day 1",
+            "weekday": "Monday",
+            "theme": "Metabolic Dawn Catalyst",
+            "calories": 1879,
+            "macros": {
+              "protein": 136,
+              "carbs": 217,
+              "fats": 52
+            },
+            "meals": [
+              {
+                "id": "breakfast",
+                "name": "Warm Cinnamon Vanilla Protein Oatmeal Bake",
+                "rpg_title": "Valhalla Hearth Porridge",
+                "calories": 470,
+                "protein_g": 34,
+                "carbs_g": 54,
+                "fats_g": 13,
+                "ingredients": [
+                  "60g Steel Cut Oats",
+                  "1 Scoop Vanilla Whey/Plant Protein",
+                  "1 tbsp Chia Seeds",
+                  "Handful of Fresh Blueberries"
+                ],
+                "cooking_tip": "Stir protein powder in after cooking oats with hot water to prevent clumping.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "lunch",
+                "name": "Chipotle Lime Grilled Chicken Burrito Bowl",
+                "rpg_title": "Sol Invictus Feast",
+                "calories": 658,
+                "protein_g": 48,
+                "carbs_g": 76,
+                "fats_g": 18,
+                "ingredients": [
+                  "180g Marinated Chicken Breast",
+                  "150g Brown Rice & Quinoa Blend",
+                  "100g Black Beans & Corn",
+                  "2 tbsp Fire-Roasted Salsa"
+                ],
+                "cooking_tip": "Squeeze fresh lime juice over warm grains to elevate the aroma without calories.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "dinner",
+                "name": "Wild Atlantic Salmon Fillet with Roasted Sweet Potatoes & Garlic Asparagus",
+                "rpg_title": "Twilight Recovery Banquet",
+                "calories": 564,
+                "protein_g": 41,
+                "carbs_g": 65,
+                "fats_g": 16,
+                "ingredients": [
+                  "170g Wild Atlantic Salmon Fillet",
+                  "180g Oven-Roasted Sweet Potato Cubes",
+                  "120g Garlic Grilled Asparagus Spears",
+                  "Sea Salt, Cracked Black Pepper & Rosemary"
+                ],
+                "cooking_tip": "Roast sweet potatoes in the oven at 200°C for caramelized natural richness.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "snack",
+                "name": "High-Protein Greek Yogurt Parfait with Honey & Walnuts",
+                "rpg_title": "Ranger Waypoint Stamina Ration",
+                "calories": 187,
+                "protein_g": 13,
+                "carbs_g": 22,
+                "fats_g": 5,
+                "ingredients": [
+                  "180g Non-Fat Greek Yogurt",
+                  "25g Raw Crushed Walnuts & Honey drizzle",
+                  "15g High-Antioxidant Blueberries"
+                ],
+                "cooking_tip": "Enjoy as an afternoon bridge to stabilize insulin and prevent evening hunger spikes.",
+                "isClaimed": false,
+                "claimed": false
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "name": "Day 2",
+            "weekday": "Tuesday",
+            "theme": "Strength & Muscular Hypertrophy",
+            "calories": 1879,
+            "macros": {
+              "protein": 136,
+              "carbs": 217,
+              "fats": 52
+            },
+            "meals": [
+              {
+                "id": "breakfast",
+                "name": "Avocado Egg Toast with Microgreens",
+                "rpg_title": "Iron Mountain Morning Crucible",
+                "calories": 470,
+                "protein_g": 34,
+                "carbs_g": 54,
+                "fats_g": 13,
+                "ingredients": [
+                  "2 Slices Multi-Seed Toast",
+                  "1 Scoop Whey/Plant Protein Isolate",
+                  "15g Organic Chia Seeds",
+                  "1/2 Cup Fresh Blueberries"
+                ],
+                "cooking_tip": "Stir in the protein powder after taking oats off heat to avoid clumping.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "lunch",
+                "name": "Lean Sirloin Steak Strips with Herbed Quinoa & Charred Bell Peppers",
+                "rpg_title": "Citadel Strength Provision",
+                "calories": 658,
+                "protein_g": 48,
+                "carbs_g": 76,
+                "fats_g": 18,
+                "ingredients": [
+                  "175g Lean Sirloin Steak Strips",
+                  "160g Fluffy Tri-Color Quinoa",
+                  "150g Fire-Roasted Peppers & Zucchini",
+                  "1 tbsp Cilantro Lime Vinaigrette"
+                ],
+                "cooking_tip": "High iron and complete aminos fuel mid-week muscular recovery.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "dinner",
+                "name": "Rosemary Roast Chicken Breast with Smashed Fingerling Potatoes & Sautéed Kale",
+                "rpg_title": "Shadow Forest Hearth Dinner",
+                "calories": 564,
+                "protein_g": 41,
+                "carbs_g": 65,
+                "fats_g": 16,
+                "ingredients": [
+                  "180g Rosemary Roast Chicken Breast",
+                  "170g Golden Smashed Potatoes",
+                  "120g Garlic Sautéed Tuscan Kale",
+                  "1 tsp Crushed Garlic & Olive Oil"
+                ],
+                "cooking_tip": "Boil potatoes until tender, then smash and crisp in a hot pan.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "snack",
+                "name": "Handful of Raw Almonds & 85% Dark Cacao Squares",
+                "rpg_title": "Alchemist Energy Elixir",
+                "calories": 187,
+                "protein_g": 13,
+                "carbs_g": 22,
+                "fats_g": 5,
+                "ingredients": [
+                  "30g Raw California Almonds",
+                  "15g 85% Dark Single-Origin Chocolate",
+                  "1 Cup Pure Green Tea"
+                ],
+                "cooking_tip": "Flavonoids and monounsaturated fats enhance sustained mental alertness.",
+                "isClaimed": false,
+                "claimed": false
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "name": "Day 3",
+            "weekday": "Wednesday",
+            "theme": "Omega-3 Recovery & Joint Defense",
+            "calories": 1879,
+            "macros": {
+              "protein": 136,
+              "carbs": 217,
+              "fats": 52
+            },
+            "meals": [
+              {
+                "id": "breakfast",
+                "name": "Mediterranean Spinach & Crumbled Feta Egg White Omelet",
+                "rpg_title": "Azure Coast Sunrise Fuel",
+                "calories": 470,
+                "protein_g": 34,
+                "carbs_g": 54,
+                "fats_g": 13,
+                "ingredients": [
+                  "4 Egg Whites + 1 Whole Egg",
+                  "40g Crumbled Light Feta",
+                  "1 Cup Baby Spinach & Sun-Dried Tomatoes",
+                  "1 Slice Toasted Spelt Bread"
+                ],
+                "cooking_tip": "Whisk eggs thoroughly for an airy, melt-in-the-mouth texture.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "lunch",
+                "name": "Pan-Seared Salmon Bowl with Brown Basmati Rice & Cucumber Ribbon Salad",
+                "rpg_title": "Aegean Sea Warrior Feast",
+                "calories": 658,
+                "protein_g": 48,
+                "carbs_g": 76,
+                "fats_g": 18,
+                "ingredients": [
+                  "175g Pan-Seared Salmon Bowl",
+                  "160g Steamed Brown Basmati",
+                  "120g Crisp Persian Cucumbers & Red Onions",
+                  "Drizzle of Lemon Tahini"
+                ],
+                "cooking_tip": "Omega-3 fatty acids actively damp down training inflammation.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "dinner",
+                "name": "Lean Ground Beef Stir-Fry with Roasted Butternut Squash & Green Beans",
+                "rpg_title": "Twilight Hearth Recovery",
+                "calories": 564,
+                "protein_g": 41,
+                "carbs_g": 65,
+                "fats_g": 16,
+                "ingredients": [
+                  "170g Lean Ground Beef Stir-Fry",
+                  "180g Caramelized Butternut Squash",
+                  "130g Tender Steamed Haricots Verts",
+                  "1 tbsp Toasted Sesame Oil"
+                ],
+                "cooking_tip": "Squash delivers beta-carotene and gentle complex carbohydrates for sound sleep.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "snack",
+                "name": "Creamy Cottage Cheese Bowl with Pineapple Chunks",
+                "rpg_title": "Wayfarer Midnight Ration",
+                "calories": 187,
+                "protein_g": 13,
+                "carbs_g": 22,
+                "fats_g": 5,
+                "ingredients": [
+                  "180g Low-Fat Cottage Cheese",
+                  "80g Sweet Pineapple Chunks",
+                  "Drizzle of Raw Wild Honey"
+                ],
+                "cooking_tip": "Slow-digesting casein protein supports overnight tissue repair.",
+                "isClaimed": false,
+                "claimed": false
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "name": "Day 4",
+            "weekday": "Thursday",
+            "theme": "Cellular Vitality & Micronutrients",
+            "calories": 1879,
+            "macros": {
+              "protein": 136,
+              "carbs": 217,
+              "fats": 52
+            },
+            "meals": [
+              {
+                "id": "breakfast",
+                "name": "Fluffy High-Protein Oat Flour Pancakes with Fresh Berries",
+                "rpg_title": "Golden Sun Titan Batter",
+                "calories": 470,
+                "protein_g": 34,
+                "carbs_g": 54,
+                "fats_g": 13,
+                "ingredients": [
+                  "50g Blended Rolled Oats",
+                  "2 Whole Eggs + 1 Scoop Protein",
+                  "1 Cup Sliced Strawberries",
+                  "Pure Maple Syrup Drizzle"
+                ],
+                "cooking_tip": "Blend oats and eggs in a blender for an ultra-smooth instant batter.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "lunch",
+                "name": "Crispy Air-Fried Chicken Cutlet with Sweet Corn, Black Beans & Wild Rice",
+                "rpg_title": "Solar Citadel Power Bowl",
+                "calories": 658,
+                "protein_g": 48,
+                "carbs_g": 76,
+                "fats_g": 18,
+                "ingredients": [
+                  "180g Crispy Air-Fried Chicken Cutlet",
+                  "150g Cooked Wild Rice",
+                  "100g Sweet Corn & Black Bean Salsa",
+                  "Fresh Cilantro & Sliced Jalapeno"
+                ],
+                "cooking_tip": "Packed with insoluble fiber and lean protein for sustained satiety.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "dinner",
+                "name": "Baked Wild Salmon with Dill Cream with Roasted Cauliflower Steaks & Herb Mash",
+                "rpg_title": "Northern Fortress Banquet",
+                "calories": 564,
+                "protein_g": 41,
+                "carbs_g": 65,
+                "fats_g": 16,
+                "ingredients": [
+                  "175g Baked Wild Salmon with Dill Cream",
+                  "180g Thick-Cut Roasted Cauliflower",
+                  "130g Herbed Yukon Gold Potatoes",
+                  "1 tsp Dijon Mustard Glaze"
+                ],
+                "cooking_tip": "Roasting cruciferous veggies at high heat unleashes a nutty, savory flavor.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "snack",
+                "name": "Roasted Sea Salt Edamame & Light String Cheese",
+                "rpg_title": "Ranger Vitality Pods",
+                "calories": 187,
+                "protein_g": 13,
+                "carbs_g": 22,
+                "fats_g": 5,
+                "ingredients": [
+                  "1 Cup Steamed/Roasted Edamame in Pods",
+                  "1 Part-Skim Mozzarella String Cheese",
+                  "Flaky Maldon Sea Salt"
+                ],
+                "cooking_tip": "Plant-based amino acids and calcium keep energy steady without sluggishness.",
+                "isClaimed": false,
+                "claimed": false
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "name": "Day 5",
+            "weekday": "Friday",
+            "theme": "Endurance & Glycogen Replenishment",
+            "calories": 1879,
+            "macros": {
+              "protein": 136,
+              "carbs": 217,
+              "fats": 52
+            },
+            "meals": [
+              {
+                "id": "breakfast",
+                "name": "Smoked Salmon & Soft-Poached Eggs on Multigrain Crisp",
+                "rpg_title": "Valkyrie Dawn Rations",
+                "calories": 470,
+                "protein_g": 34,
+                "carbs_g": 54,
+                "fats_g": 13,
+                "ingredients": [
+                  "2 Large Poached Eggs",
+                  "60g Smoked Wild Salmon",
+                  "2 Slices Toasted Multigrain",
+                  "Fresh Dill & Caper Berries"
+                ],
+                "cooking_tip": "Gently swirl boiling water before dropping eggs in for perfectly rounded whites.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "lunch",
+                "name": "Grilled Lean Beef Kofta Patties with Spiced Couscous & Roasted Zucchini Ribbons",
+                "rpg_title": "Oasis Caravan Sustenance",
+                "calories": 658,
+                "protein_g": 48,
+                "carbs_g": 76,
+                "fats_g": 18,
+                "ingredients": [
+                  "180g Grilled Lean Beef Kofta Patties",
+                  "160g Fluffy Whole-Wheat Couscous",
+                  "140g Grilled Yellow Squash & Zucchini",
+                  "1 tbsp Mint Yogurt Sauce"
+                ],
+                "cooking_tip": "Mediterranean seasonings provide antioxidants with zero added refined sugars.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "dinner",
+                "name": "Pan-Roasted Atlantic Cod Fillet with Garlic Roasted Carrots & Brown Rice",
+                "rpg_title": "Highland Keep Evening Feast",
+                "calories": 564,
+                "protein_g": 41,
+                "carbs_g": 65,
+                "fats_g": 16,
+                "ingredients": [
+                  "170g Pan-Roasted Atlantic Cod Fillet",
+                  "180g Rainbow Baby Carrots with Thyme",
+                  "150g Steamed Brown Rice",
+                  "1 tsp Cold-Pressed Grapeseed Oil"
+                ],
+                "cooking_tip": "Slow-roasted root carrots release rich natural sweetness without sauces.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "snack",
+                "name": "Protein Shake Blended with Unsweetened Almond Milk & Berries",
+                "rpg_title": "Mana Recovery Flask",
+                "calories": 187,
+                "protein_g": 13,
+                "carbs_g": 22,
+                "fats_g": 5,
+                "ingredients": [
+                  "1 Scoop High-Purity Whey/Plant Protein",
+                  "250mL Unsweetened Almond Milk",
+                  "1/2 Cup Frozen Wild Raspberries"
+                ],
+                "cooking_tip": "Rapidly absorbs into working muscle fibers to kickstart protein synthesis.",
+                "isClaimed": false,
+                "claimed": false
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "name": "Day 6",
+            "weekday": "Saturday",
+            "theme": "Citadel High-Protein Recharge",
+            "calories": 1879,
+            "macros": {
+              "protein": 136,
+              "carbs": 217,
+              "fats": 52
+            },
+            "meals": [
+              {
+                "id": "breakfast",
+                "name": "Spiced Shakshuka Poached Eggs in Rich Tomato Pepper Sauce",
+                "rpg_title": "Desert Sun Forge Skillet",
+                "calories": 470,
+                "protein_g": 34,
+                "carbs_g": 54,
+                "fats_g": 13,
+                "ingredients": [
+                  "3 Fresh Eggs Poached in Sauce",
+                  "1 Cup Crushed Tomatoes, Bell Peppers & Cumin",
+                  "1 Warm Pita/Sourdough Slice",
+                  "Fresh Coriander"
+                ],
+                "cooking_tip": "Simmer peppers and tomatoes gently until sweet before cracking eggs into wells.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "lunch",
+                "name": "Grilled Peri-Peri Chicken Breast with Sweet Potato Fries & Crispy Green Salad",
+                "rpg_title": "Weekend Warrior Fuel",
+                "calories": 658,
+                "protein_g": 48,
+                "carbs_g": 76,
+                "fats_g": 18,
+                "ingredients": [
+                  "180g Grilled Peri-Peri Chicken Breast",
+                  "170g Baked Sweet Potato Wedges",
+                  "100g Mixed Baby Greens & Radishes",
+                  "1 tbsp Apple Cider Vinaigrette"
+                ],
+                "cooking_tip": "Bake sweet potato wedges with a pinch of smoked paprika for restaurant quality.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "dinner",
+                "name": "Teriyaki Glazed Wild Salmon with Sautéed Baby Bok Choy & Jasmine Rice",
+                "rpg_title": "Eastern Shrine Twilight Repast",
+                "calories": 564,
+                "protein_g": 41,
+                "carbs_g": 65,
+                "fats_g": 16,
+                "ingredients": [
+                  "175g Teriyaki Glazed Wild Salmon",
+                  "140g Sautéed Baby Bok Choy with Ginger",
+                  "160g Steamed Fragrant Rice",
+                  "1 tbsp Tamari & Sesame Drizzle"
+                ],
+                "cooking_tip": "Quickly flash-fry bok choy with fresh ginger to keep it crunchy and vibrant.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "snack",
+                "name": "Two Hard-Boiled Pastured Eggs with Everything Bagel Seasoning",
+                "rpg_title": "Sentinel Sentry Snack",
+                "calories": 187,
+                "protein_g": 13,
+                "carbs_g": 22,
+                "fats_g": 5,
+                "ingredients": [
+                  "2 Large Pasture-Raised Eggs",
+                  "1 tsp Everything Bagel Spice",
+                  "Small Handful of Crisp Celery Sticks"
+                ],
+                "cooking_tip": "Choline and sulfur compounds aid healthy liver lipid metabolism.",
+                "isClaimed": false,
+                "claimed": false
+              }
+            ]
+          },
+          {
+            "day": 7,
+            "name": "Day 7",
+            "weekday": "Sunday",
+            "theme": "Champion's Restorative Banquet",
+            "calories": 1879,
+            "macros": {
+              "protein": 136,
+              "carbs": 217,
+              "fats": 52
+            },
+            "meals": [
+              {
+                "id": "breakfast",
+                "name": "Loaded Breakfast Scramble Wrap with Avocado & Salsa",
+                "rpg_title": "Grand Finale Sunrise Feast",
+                "calories": 470,
+                "protein_g": 34,
+                "carbs_g": 54,
+                "fats_g": 13,
+                "ingredients": [
+                  "3 Farm Eggs Scrambled",
+                  "1/2 Sliced Ripe Avocado",
+                  "1 Whole-Wheat Tortilla Wrap",
+                  "Fresh Chunky Pico de Gallo"
+                ],
+                "cooking_tip": "Wrap tightly in parchment paper and lightly toast on both sides in a dry skillet.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "lunch",
+                "name": "Citrus Herb Grilled Chicken Breast with Wild Rice Pilaf & Roasted Brussels Sprouts",
+                "rpg_title": "Champion Table Midday Banquet",
+                "calories": 658,
+                "protein_g": 48,
+                "carbs_g": 76,
+                "fats_g": 18,
+                "ingredients": [
+                  "180g Citrus Herb Grilled Chicken Breast",
+                  "160g Nutty Wild Rice Pilaf",
+                  "150g Caramelized Roasted Brussels Sprouts",
+                  "1 tbsp Lemon Herb Dressing"
+                ],
+                "cooking_tip": "Quarter brussels sprouts and roast cut-side down for ultra-crispy edges.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "dinner",
+                "name": "Slow-Braised Lean Beef Sirloin with Smashed Garlic Potatoes & Steamed Asparagus",
+                "rpg_title": "Ascendant Sunday Victory Feast",
+                "calories": 564,
+                "protein_g": 41,
+                "carbs_g": 65,
+                "fats_g": 16,
+                "ingredients": [
+                  "175g Slow-Braised Lean Beef Sirloin",
+                  "180g Smashed Garlic Potatoes with Parsley",
+                  "130g Tender Asparagus Spears",
+                  "Natural Pan Au Jus Reduction"
+                ],
+                "cooking_tip": "Complete week milestone meal to replenish glycogen and celebrate dedication.",
+                "isClaimed": false,
+                "claimed": false
+              },
+              {
+                "id": "snack",
+                "name": "Vanilla Greek Yogurt with Chopped Dark Cherries",
+                "rpg_title": "Zenith Serenity Treat",
+                "calories": 187,
+                "protein_g": 13,
+                "carbs_g": 22,
+                "fats_g": 5,
+                "ingredients": [
+                  "180g Plain Greek Yogurt",
+                  "50g Pitted Dark Sweet Cherries",
+                  "Dash of Ground Cinnamon"
+                ],
+                "cooking_tip": "Cherries contain natural melatonin to support deep, restorative Sunday night sleep.",
+                "isClaimed": false,
+                "claimed": false
+              }
+            ]
+          }
+        ],
+        "meals": [
+          {
+            "id": "breakfast",
+            "name": "Warm Cinnamon Vanilla Protein Oatmeal Bake",
+            "rpg_title": "Valhalla Hearth Porridge",
+            "calories": 470,
+            "protein_g": 34,
+            "carbs_g": 54,
+            "fats_g": 13,
+            "ingredients": [
+              "60g Steel Cut Oats",
+              "1 Scoop Vanilla Whey/Plant Protein",
+              "1 tbsp Chia Seeds",
+              "Handful of Fresh Blueberries"
+            ],
+            "cooking_tip": "Stir protein powder in after cooking oats with hot water to prevent clumping.",
+            "isClaimed": false,
+            "claimed": false
+          },
+          {
+            "id": "lunch",
+            "name": "Chipotle Lime Grilled Chicken Burrito Bowl",
+            "rpg_title": "Sol Invictus Feast",
+            "calories": 658,
+            "protein_g": 48,
+            "carbs_g": 76,
+            "fats_g": 18,
+            "ingredients": [
+              "180g Marinated Chicken Breast",
+              "150g Brown Rice & Quinoa Blend",
+              "100g Black Beans & Corn",
+              "2 tbsp Fire-Roasted Salsa"
+            ],
+            "cooking_tip": "Squeeze fresh lime juice over warm grains to elevate the aroma without calories.",
+            "isClaimed": false,
+            "claimed": false
+          },
+          {
+            "id": "dinner",
+            "name": "Wild Atlantic Salmon Fillet with Roasted Sweet Potatoes & Garlic Asparagus",
+            "rpg_title": "Twilight Recovery Banquet",
+            "calories": 564,
+            "protein_g": 41,
+            "carbs_g": 65,
+            "fats_g": 16,
+            "ingredients": [
+              "170g Wild Atlantic Salmon Fillet",
+              "180g Oven-Roasted Sweet Potato Cubes",
+              "120g Garlic Grilled Asparagus Spears",
+              "Sea Salt, Cracked Black Pepper & Rosemary"
+            ],
+            "cooking_tip": "Roast sweet potatoes in the oven at 200°C for caramelized natural richness.",
+            "isClaimed": false,
+            "claimed": false
+          },
+          {
+            "id": "snack",
+            "name": "High-Protein Greek Yogurt Parfait with Honey & Walnuts",
+            "rpg_title": "Ranger Waypoint Stamina Ration",
+            "calories": 187,
+            "protein_g": 13,
+            "carbs_g": 22,
+            "fats_g": 5,
+            "ingredients": [
+              "180g Non-Fat Greek Yogurt",
+              "25g Raw Crushed Walnuts & Honey drizzle",
+              "15g High-Antioxidant Blueberries"
+            ],
+            "cooking_tip": "Enjoy as an afternoon bridge to stabilize insulin and prevent evening hunger spikes.",
+            "isClaimed": false,
+            "claimed": false
+          }
+        ]
+      },
+      "walking_plan": {
+        "total_distance_km": 6,
+        "total_time_mins": 60,
+        "estimated_steps": 8100,
+        "morning_shift": {
+          "distance_km": 3,
+          "time_mins": 30,
+          "steps": 4050,
+          "title": "Morning Walk Quest (Morning Shift)"
+        },
+        "evening_shift": {
+          "distance_km": 3,
+          "time_mins": 30,
+          "steps": 4050,
+          "title": "Evening Walk Quest (Evening Shift)"
+        }
+      }
+    }
+  ],
+  "playerStats": [
+    {
+      "userId": "doc_1788956593981_4wjfd5",
+      "hp_current": 100,
+      "hp_max": 100,
+      "xp_total": 0,
+      "level": 1,
+      "streak_count": 0,
+      "streak_multiplier": 1,
+      "water_current_ml": 0,
+      "water_target_ml": 3000,
+      "steps_current": 0,
+      "steps_target": 8000,
+      "bpm_current": 82,
+      "energy_bar": 0,
+      "active_shield_until": null,
+      "active_rest_day_until": null,
+      "has_unplanned_trap": false,
+      "trap_penalty_time": "2026-09-09T12:23:24.301Z",
+      "last_reset_date": "2026-10-01",
+      "id": "doc_1788956593981_5tv53t",
+      "createdAt": "2026-09-09T12:23:13.981Z",
+      "updatedAt": "2026-10-01T17:51:23.939Z",
+      "coins": 200,
+      "pet_customization": {
+        "name": "Pip",
+        "stage": "baby",
+        "equipped_hat": null,
+        "equipped_glasses": null,
+        "equipped_outfit": null,
+        "equipped_background": "bg_cozy_guild",
+        "unlocked_items": [
+          "bg_cozy_guild"
+        ],
+        "happiness": 50,
+        "hunger": 50,
+        "last_interaction": "2026-10-01T18:26:34.184Z"
+      },
+      "scout_badges": [
+        {
+          "id": "hydration_titan",
+          "title": "Hydration Titan Scout",
+          "category": "water",
+          "stars": 1,
+          "maxStars": 3,
+          "current": 0,
+          "target": 4000,
+          "unit": "mL",
+          "isOverachiever": false,
+          "badgeIcon": "💧",
+          "description": "Drink 4.0L+ water (exceeding standard 3L) for the 3-star Overachiever rating!",
+          "claimed": false,
+          "coinsReward": 150
+        },
+        {
+          "id": "trailblazer_scout",
+          "title": "Trailblazer Scout",
+          "category": "steps",
+          "stars": 1,
+          "maxStars": 3,
+          "current": 0,
+          "target": 16000,
+          "unit": "steps",
+          "isOverachiever": false,
+          "badgeIcon": "👟",
+          "description": "Achieve double daily steps (16,000 steps) for the 3-star Overachiever rating!",
+          "claimed": false,
+          "coinsReward": 200
+        },
+        {
+          "id": "iron_will",
+          "title": "Iron Will Scout",
+          "category": "streak",
+          "stars": 1,
+          "maxStars": 3,
+          "current": 0,
+          "target": 7,
+          "unit": "days",
+          "isOverachiever": false,
+          "badgeIcon": "🔥",
+          "description": "Maintain an uninterrupted 7-day fitness streak without breaking discipline!",
+          "claimed": false,
+          "coinsReward": 250
+        },
+        {
+          "id": "culinary_virtuoso",
+          "title": "Culinary Virtuoso Scout",
+          "category": "diet",
+          "stars": 1,
+          "maxStars": 3,
+          "current": 0,
+          "target": 3,
+          "unit": "meals",
+          "isOverachiever": false,
+          "badgeIcon": "🍳",
+          "description": "Log and claim all 3 daily meals directly according to your personalized AI plan.",
+          "claimed": false,
+          "coinsReward": 120
+        }
+      ]
+    },
+    {
+      "userId": "doc_1790877838980_9dapr2",
+      "hp_current": 100,
+      "hp_max": 100,
+      "xp_total": 0,
+      "level": 1,
+      "coins": 200,
+      "streak_count": 0,
+      "streak_multiplier": 1,
+      "water_current_ml": 0,
+      "water_target_ml": 3000,
+      "steps_current": 0,
+      "steps_target": 8000,
+      "bpm_current": 74,
+      "energy_bar": 0,
+      "active_shield_until": null,
+      "active_rest_day_until": null,
+      "has_unplanned_trap": false,
+      "trap_penalty_time": null,
+      "last_reset_date": "2026-10-01",
+      "pet_customization": {
+        "name": "Pip",
+        "stage": "baby",
+        "equipped_hat": null,
+        "equipped_glasses": null,
+        "equipped_outfit": null,
+        "equipped_background": "bg_cozy_guild",
+        "unlocked_items": [
+          "bg_cozy_guild"
+        ],
+        "happiness": 50,
+        "hunger": 50,
+        "last_interaction": "2026-10-01T18:26:34.185Z"
+      },
+      "scout_badges": [
+        {
+          "id": "hydration_titan",
+          "title": "Hydration Titan Scout",
+          "category": "water",
+          "stars": 1,
+          "maxStars": 3,
+          "current": 0,
+          "target": 4000,
+          "unit": "mL",
+          "isOverachiever": false,
+          "badgeIcon": "💧",
+          "description": "Drink 4.0L+ water (exceeding standard 3L) for the 3-star Overachiever rating!",
+          "claimed": false,
+          "coinsReward": 150
+        },
+        {
+          "id": "trailblazer_scout",
+          "title": "Trailblazer Scout",
+          "category": "steps",
+          "stars": 1,
+          "maxStars": 3,
+          "current": 0,
+          "target": 16000,
+          "unit": "steps",
+          "isOverachiever": false,
+          "badgeIcon": "👟",
+          "description": "Achieve double daily steps (16,000 steps) for the 3-star Overachiever rating!",
+          "claimed": false,
+          "coinsReward": 200
+        },
+        {
+          "id": "iron_will",
+          "title": "Iron Will Scout",
+          "category": "streak",
+          "stars": 1,
+          "maxStars": 3,
+          "current": 0,
+          "target": 7,
+          "unit": "days",
+          "isOverachiever": false,
+          "badgeIcon": "🔥",
+          "description": "Maintain an uninterrupted 7-day fitness streak without breaking discipline!",
+          "claimed": false,
+          "coinsReward": 250
+        },
+        {
+          "id": "culinary_virtuoso",
+          "title": "Culinary Virtuoso Scout",
+          "category": "diet",
+          "stars": 1,
+          "maxStars": 3,
+          "current": 0,
+          "target": 3,
+          "unit": "meals",
+          "isOverachiever": false,
+          "badgeIcon": "🍳",
+          "description": "Log and claim all 3 daily meals directly according to your personalized AI plan.",
+          "claimed": false,
+          "coinsReward": 120
+        }
+      ],
+      "id": "doc_1790877838981_pmev0o",
+      "createdAt": "2026-10-01T18:03:58.981Z",
+      "updatedAt": "2026-10-01T18:16:45.869Z"
+    }
+  ],
+  "quests": [
+    {
+      "userId": "doc_1788956593981_4wjfd5",
+      "title": "Deficit Vanguard",
+      "description": "Log all meals while strictly staying within the assigned daily caloric deficit limit.",
+      "type": "main",
+      "category": "weight_loss",
+      "baseXP": 300,
+      "unit": "meals logged in deficit",
+      "progress": 0,
+      "maxProgress": 3,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-09-09",
+      "id": "doc_1788956593983_k4jmc0",
+      "createdAt": "2026-09-09T12:23:13.983Z",
+      "updatedAt": "2026-09-09T12:23:13.983Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1788956593981_4wjfd5",
+      "title": "Hydration Springs & Swift Pacing",
+      "description": "Drink 3 Liters of water and reach 8,000 steps tracked by the smartwatch.",
+      "type": "side",
+      "category": "weight_loss",
+      "baseXP": 100,
+      "unit": "milestones met",
+      "progress": 0,
+      "maxProgress": 2,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-09-09",
+      "id": "doc_1788956593983_do2kd3",
+      "createdAt": "2026-09-09T12:23:13.983Z",
+      "updatedAt": "2026-09-09T12:23:13.983Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1788956593981_4wjfd5",
+      "title": "Boss Battle: The 16-Hour Fasting Dragon",
+      "description": "Complete a 16-hour Intermittent Fasting window without breaking the diet.",
+      "type": "boss",
+      "category": "weight_loss",
+      "baseXP": 500,
+      "unit": "fasting hours",
+      "progress": 0,
+      "maxProgress": 16,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-09-09",
+      "id": "doc_1788956593983_klayhd",
+      "createdAt": "2026-09-09T12:23:13.983Z",
+      "updatedAt": "2026-09-09T12:23:13.983Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1788956593981_4wjfd5",
+      "title": "🚨 Recovery Quest: Fast Food Purge",
+      "description": "Walk for 20 minutes briskly to counteract the junk food trap debuff and restore stamina.",
+      "type": "recovery",
+      "category": "recovery",
+      "baseXP": 150,
+      "unit": "minutes brisk walking",
+      "progress": 0,
+      "maxProgress": 20,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-09-09",
+      "id": "doc_1788956604301_qas490",
+      "createdAt": "2026-09-09T12:23:24.301Z",
+      "updatedAt": "2026-09-09T12:23:24.301Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1788956593981_4wjfd5",
+      "title": "Deficit Vanguard",
+      "description": "Log all meals while strictly staying within the assigned daily caloric deficit limit.",
+      "type": "main",
+      "category": "weight_loss",
+      "baseXP": 300,
+      "unit": "meals logged in deficit",
+      "progress": 0,
+      "maxProgress": 3,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-10-01",
+      "id": "doc_1790877083940_43ak3a",
+      "createdAt": "2026-10-01T17:51:23.940Z",
+      "updatedAt": "2026-10-01T17:51:23.940Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1788956593981_4wjfd5",
+      "title": "Hydration Springs & Swift Pacing",
+      "description": "Drink 3 Liters of water and reach 8,000 steps tracked by smartwatch or phone.",
+      "type": "side",
+      "category": "weight_loss",
+      "baseXP": 100,
+      "unit": "milestones met",
+      "progress": 0,
+      "maxProgress": 2,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-10-01",
+      "id": "doc_1790877083940_yiw1yl",
+      "createdAt": "2026-10-01T17:51:23.940Z",
+      "updatedAt": "2026-10-01T17:51:23.940Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1788956593981_4wjfd5",
+      "title": "Boss Battle: The 16-Hour Fasting Dragon",
+      "description": "Complete a 16-hour Intermittent Fasting window without breaking the diet.",
+      "type": "boss",
+      "category": "weight_loss",
+      "baseXP": 500,
+      "unit": "fasting hours",
+      "progress": 0,
+      "maxProgress": 16,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-10-01",
+      "id": "doc_1790877083940_nq005z",
+      "createdAt": "2026-10-01T17:51:23.940Z",
+      "updatedAt": "2026-10-01T17:51:23.940Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1790877838980_9dapr2",
+      "title": "Morning Walk Quest (Morning Shift) (+150 XP)",
+      "description": "Complete the first half of your AI daily walking goal: 3 km (30 mins). Log your session directly in-app.",
+      "type": "main",
+      "category": "movement",
+      "baseXP": 150,
+      "unit": "km walked",
+      "progress": 0,
+      "maxProgress": 3,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-10-01",
+      "id": "doc_1790877887781_z7nzd6",
+      "createdAt": "2026-10-01T18:04:47.781Z",
+      "updatedAt": "2026-10-01T18:04:47.781Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1790877838980_9dapr2",
+      "title": "Evening Walk Quest (Evening Shift) (+150 XP)",
+      "description": "Complete the second half of your AI daily walking goal: 3 km (30 mins) to finalize today's mobility objective.",
+      "type": "main",
+      "category": "movement",
+      "baseXP": 150,
+      "unit": "km walked",
+      "progress": 0,
+      "maxProgress": 3,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-10-01",
+      "id": "doc_1790877887781_zpyjfw",
+      "createdAt": "2026-10-01T18:04:47.781Z",
+      "updatedAt": "2026-10-01T18:04:47.781Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1790877838980_9dapr2",
+      "title": "Meal Quest: Warm Cinnamon Vanilla Protein Oatmeal Bake (+200 XP)",
+      "description": "Log eating your breakfast (470 kcal, 34g Protein) to fuel today's adventure.",
+      "type": "main",
+      "category": "nutrition",
+      "baseXP": 200,
+      "unit": "meal completed",
+      "progress": 0,
+      "maxProgress": 1,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-10-01",
+      "id": "doc_1790877887782_2qc4yk",
+      "createdAt": "2026-10-01T18:04:47.782Z",
+      "updatedAt": "2026-10-01T18:10:27.407Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1790877838980_9dapr2",
+      "title": "Meal Quest: Chipotle Lime Grilled Chicken Burrito Bowl (+200 XP)",
+      "description": "Log eating your lunch (658 kcal, 48g Protein) to fuel today's adventure.",
+      "type": "main",
+      "category": "nutrition",
+      "baseXP": 200,
+      "unit": "meal completed",
+      "progress": 0,
+      "maxProgress": 1,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-10-01",
+      "id": "doc_1790877887783_gvos6w",
+      "createdAt": "2026-10-01T18:04:47.783Z",
+      "updatedAt": "2026-10-01T18:12:46.703Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1790877838980_9dapr2",
+      "title": "Dinner Quest: Wild Atlantic Salmon Fillet with Roasted Sweet Potatoes & Garlic Asparagus (+200 XP)",
+      "description": "Replenish with Wild Atlantic Salmon Fillet with Roasted Sweet Potatoes & Garlic Asparagus (~564 kcal, 41g P / 65g C / 16g F) (Zero Gluten). Ingredients: 170g Wild Atlantic Salmon Fillet, 180g Oven-Roasted Sweet Potato Cubes, 120g Garlic Grilled Asparagus Spears.",
+      "type": "main",
+      "category": "nutrition",
+      "baseXP": 200,
+      "unit": "meal completed",
+      "progress": 0,
+      "maxProgress": 1,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-10-01",
+      "id": "doc_1790877887783_eby9e4",
+      "createdAt": "2026-10-01T18:04:47.783Z",
+      "updatedAt": "2026-10-01T18:04:47.783Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1790877838980_9dapr2",
+      "title": "Side Quest: Springs of Vitality (+100 XP)",
+      "description": "Drink your personalized baseline target of 2400 mL of water to recharge your Energy Core to 100%.",
+      "type": "side",
+      "category": "hydration",
+      "baseXP": 100,
+      "unit": "mL hydrated",
+      "progress": 0,
+      "maxProgress": 2400,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-10-01",
+      "id": "doc_1790877887784_i195cu",
+      "createdAt": "2026-10-01T18:04:47.784Z",
+      "updatedAt": "2026-10-01T18:04:47.784Z",
+      "isClaimed": false
+    },
+    {
+      "userId": "doc_1790877838980_9dapr2",
+      "title": "Boss Battle: Macro Precision Champion (+500 XP)",
+      "description": "Finish the day landing within ±5% of your 1879 kcal target and achieving 136g Protein (Zero Gluten)!",
+      "type": "boss",
+      "category": "weight_loss",
+      "baseXP": 500,
+      "unit": "% plan adherence",
+      "progress": 0,
+      "maxProgress": 100,
+      "completed": false,
+      "claimed": false,
+      "date": "2026-10-01",
+      "id": "doc_1790877887784_0sqdko",
+      "createdAt": "2026-10-01T18:04:47.784Z",
+      "updatedAt": "2026-10-01T18:04:47.784Z",
+      "isClaimed": false
+    }
+  ],
+  "inventory": [
+    {
+      "userId": "doc_1788956593981_4wjfd5",
+      "speedPotions": 1,
+      "shields": 1,
+      "cheatMealPasses": 0,
+      "restDayPasses": 1,
+      "activeBuffs": [],
+      "purchaseHistory": [],
+      "id": "doc_1788956593982_m0fimx",
+      "createdAt": "2026-09-09T12:23:13.982Z",
+      "updatedAt": "2026-09-09T12:23:57.125Z"
+    },
+    {
+      "userId": "doc_1790877838980_9dapr2",
+      "speedPotions": 2,
+      "shields": 1,
+      "cheatMealPasses": 0,
+      "restDayPasses": 1,
+      "activeBuffs": [],
+      "purchaseHistory": [],
+      "id": "doc_1790877838981_qddzt6",
+      "createdAt": "2026-10-01T18:03:58.981Z",
+      "updatedAt": "2026-10-01T18:03:58.981Z"
+    }
+  ],
+  "healthSync": [
+    {
+      "userId": "doc_1788956593981_4wjfd5",
+      "deviceType": "Apple Watch",
+      "steps": 8500,
+      "bpm": 82,
+      "caloriesBurned": 250,
+      "syncedAt": "2026-09-09T12:23:21.647Z",
+      "status": "synced",
+      "id": "doc_1788956601647_8fq5id",
+      "createdAt": "2026-09-09T12:23:21.647Z",
+      "updatedAt": "2026-09-09T12:23:21.647Z"
+    }
+  ]
+}

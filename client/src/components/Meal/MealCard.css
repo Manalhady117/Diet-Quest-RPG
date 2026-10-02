@@ -1,0 +1,260 @@
+.meal-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease-in-out;
+}
+
+.meal-card:hover {
+  border-color: rgba(139, 124, 255, 0.4);
+}
+
+.meal-card.claimed {
+  border-color: rgba(16, 185, 129, 0.6);
+  background-color: rgba(16, 185, 129, 0.04);
+}
+
+.meal-card.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.meal-card.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+.card-header .header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+
+.meal-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #3b82f6;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.reroll-btn {
+  height: 28px;
+  padding: 0 0.65rem;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  color: #b45309;
+  border-radius: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.reroll-btn:hover:not(:disabled) {
+  background-color: #f1f5f9;
+}
+
+.reroll-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.spinning {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.meal-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0f172a;
+  line-height: 1.35;
+  margin: 0.25rem 0 0.5rem 0;
+}
+
+.macros-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin: 0.4rem 0;
+}
+
+.macro-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: monospace;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.375rem;
+}
+
+.macro-protein {
+  background-color: rgba(255, 126, 182, 0.15);
+  color: #db2777;
+}
+
+.macro-carbs {
+  background-color: rgba(56, 189, 248, 0.15);
+  color: #0284c7;
+}
+
+.macro-fats {
+  background-color: rgba(250, 204, 21, 0.2);
+  color: #b45309;
+}
+
+.macro-kcal {
+  background-color: #f1f5f9;
+  color: #475569;
+}
+
+.recipe-section {
+  margin-top: 0.65rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid #f1f5f9;
+}
+
+.recipe-toggle-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #8b7cff;
+  background: none;
+  border: none;
+  padding: 0.25rem 0;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.recipe-toggle-btn:hover {
+  color: #7c3aed;
+}
+
+.toggle-left {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.recipe-details {
+  margin-top: 0.5rem;
+  padding: 0.65rem;
+  background-color: #f8fafc;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+}
+
+.times {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-details h5 {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0.5rem 0 0.25rem 0;
+}
+
+.ingredients-list {
+  list-style-type: disc;
+  padding-inline-start: 1.25rem;
+  margin: 0 0 0.5rem 0;
+  font-size: 0.75rem;
+  color: #334155;
+}
+
+.ingredients-list li {
+  margin-bottom: 0.2rem;
+}
+
+.steps-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.steps-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  color: #334155;
+  line-height: 1.35;
+}
+
+.step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  background-color: #e2e8f0;
+  color: #1e293b;
+  border-radius: 50%;
+  font-size: 0.65rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.card-footer {
+  margin-top: 0.75rem;
+}
+
+.claim-btn {
+  width: 100%;
+  height: 38px;
+  border-radius: 0.75rem;
+  border: none;
+  background: linear-gradient(to right, #10b981, #059669);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.15s ease;
+}
+
+.claim-btn:hover:not(:disabled) {
+  background: linear-gradient(to right, #059669, #047857);
+}
+
+.claim-btn.claimed,
+.claim-btn:disabled {
+  background: #f1f5f9;
+  color: #10b981;
+  border: 1px solid #a7f3d0;
+  cursor: default;
+}
